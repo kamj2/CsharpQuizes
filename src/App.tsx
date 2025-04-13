@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <Quizes />
     </>
-  )
+  ) 
 }
 
 export default App
