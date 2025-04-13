@@ -15,7 +15,7 @@ export const Navbar: React.FC = () => {
             <span className="text-xl font-bold text-indigo-600 ml-2">CsharpQuizes</span>
           </div>
 
-          {/* Desktop Menu */}
+   
           <div className="hidden md:flex space-x-4">
             <button className="flex items-center text-indigo-600 hover:text-indigo-800 transition font-medium">
               <House size={20} className="mr-1" />
@@ -23,7 +23,7 @@ export const Navbar: React.FC = () => {
             </button>
           </div>
 
-          {/* Mobile Burger Icon */}
+   
           <div className="md:hidden">
             <button onClick={() => setMenuOpen(!menuOpen)}>
               {menuOpen ? <X size={26} /> : <Menu size={26} />}
